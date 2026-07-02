@@ -1,0 +1,8 @@
+{
+  "name": "Remix: 營業速報Final1.1.4",
+  "description": "-增加通路季業績預估統計表(調整pdf欄位)\n2026-7-1\n-EXCEL匯出增加通路季業績預估統計表頁簽\n-匯率多月批次設定(報表及目標動態抓取)\n-百貨業績比對",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

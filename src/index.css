@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer components {
+  @media print {
+    body {
+      background-color: white !important;
+    }
+    
+    /* Hide the global App header and any other headers */
+    header, nav {
+      display: none !important;
+    }
+
+    #pdf-export-container {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    
+    .break-before-page {
+      page-break-before: always;
+      break-before: page;
+    }
+  }
+}
